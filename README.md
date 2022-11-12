@@ -26,7 +26,7 @@ or short:
 ```shell
 keygen ecdsa -c P521 -o ecdsa_key
 ```
-Add the `-p` flag to create a public key also.
+Add the ` -p ` flag to create a public key also.
 
 **Creating a RSA key**
 ```shell
