@@ -1,6 +1,6 @@
 # Keygen
 ![build](https://github.com/tezli/keygen/actions/workflows/main.yml/badge.svg)
-![codecov](https://codecov.io/gh/tezli/keygen/branch/main/graph/badge.svg)](https://codecov.io/gh/tezli/keygen)
+[![codecov](https://codecov.io/gh/tezli/keygen/branch/main/graph/badge.svg)](https://codecov.io/gh/tezli/keygen)
 
 Simple tool for genrating crytographic keys.
 
