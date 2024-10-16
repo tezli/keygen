@@ -6,8 +6,8 @@ on:
       - 'v*'
 
 env:
-  BIN_DIR: "./bin"
-  BIN_NAME: "keygen"
+  BIN_DIR: './bin'
+  BIN_NAME: 'keygen'
 
 jobs:
   build:
