@@ -49,6 +49,7 @@ clean:
 test:
 	$(info running tests)
 	@- go test -race -coverprofile=coverage.txt -covermode=atomic
+        @- go tool cover -func=coverage.txt
 
 install:
 	$(info installing)
