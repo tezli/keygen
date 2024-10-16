@@ -3,3 +3,5 @@
 bin
 keygen
 scripts
+coverage.txt
+coverage.html

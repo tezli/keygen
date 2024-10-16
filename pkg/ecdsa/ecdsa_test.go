@@ -20,7 +20,15 @@ import (
 )
 
 func TestECDSAWithSecret(t *testing.T) {
-	private, public, err := GenerateKeys(CURVE_P256, []byte("secret"), true)
+	private, public, err := GenerateKeys(CURVE_P224, []byte("secret"), true)
+	if private == nil || public == nil || err != nil {
+		t.Fail()
+	}
+	private, public, err = GenerateKeys(CURVE_P384, []byte("secret"), true)
+	if private == nil || public == nil || err != nil {
+		t.Fail()
+	}
+	private, public, err = GenerateKeys(CURVE_P521, []byte("secret"), true)
 	if private == nil || public == nil || err != nil {
 		t.Fail()
 	}
