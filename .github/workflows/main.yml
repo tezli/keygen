@@ -1,15 +1,16 @@
 name: main
 
 on:
-  push:
-    branches:
-      - 'main'
     workflow_dispatch:
       inputs:
         debug_enabled:
           description: 'To run with tmate enter "debug_enabled"'
           required: false
           default: "false"
+    push:
+      branches:
+        - main
+
 
 jobs:
   build:
@@ -35,8 +36,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      -
-        name: Checkout
+      - name: Checkout
         uses: actions/checkout@v3
         
       - name: Setup
