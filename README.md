@@ -13,7 +13,7 @@ go install github.com/tezli/keygen
 **For eveyone else**
 
 ```shell
-curl -so "https://github.com/tezli/keygen/releases/download/v0.0.13/keygen-$(uname -s | tr A-Z a-z)-$(uname -m | sed s/x86_/amd/g)" /usr/local/bin/keygen && chmod +x /usr/local/bin/keygen
+curl -so "https://github.com/tezli/keygen/releases/download/v0.0.1/keygen-$(uname -s | tr A-Z a-z)-$(uname -m | sed s/x86_/amd/g)" /usr/local/bin/keygen && chmod +x /usr/local/bin/keygen
 ```
 
 ## Usage
